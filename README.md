@@ -19,7 +19,8 @@
 |numericFilters	|`price>40,rating>=4`			|Advance sort by fields, price and rating	|
 
 Example use:
-`{{URL}}/products?name=a`
-`{{URL}}/products?page=1`
-`{{URL}}/products?featured=false&company=ikea&sort=price`
-`{{URL}}/products?numericFilters=price>40,rating>=4`
+
+- `{{URL}}/products?name=a`
+- `{{URL}}/products?page=1`
+- `{{URL}}/products?featured=false&company=ikea&sort=price`
+- `{{URL}}/products?numericFilters=price>40,rating>=4`
