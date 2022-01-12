@@ -3,6 +3,8 @@ require('dotenv').config()
 const express = require('express')
 const app = express()
 
+require('express-async-errors')
+
 const PORT = process.env.PORT || 3000
 const DB_CONNECTION_URI = process.env.MONGO_DB_URI || 'mongodb+srv://<USER>:<PASS>@<URL>/store-api?retryWrites=true&w=majority'
 const connectDB = require('./db/connect')
